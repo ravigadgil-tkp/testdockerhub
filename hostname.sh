@@ -15,7 +15,7 @@ cat > /usr/share/nginx/html/index.html <<EOF
 </HTML>
 EOF
 
-mkdir /usr/share/nginx/html/healthz /usr/share/nginx/html/hostname /usr/share/nginx/html/version
+mkdir -p /usr/share/nginx/html/healthz /usr/share/nginx/html/hostname /usr/share/nginx/html/version
 cat > /usr/share/nginx/html/hostname/index.html <<EOF
 $HOSTNAME -- $VERSION
 EOF
