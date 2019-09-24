@@ -26,5 +26,3 @@ chmod 777 /usr/share/nginx/html/healthz
 cat > /usr/share/nginx/html/healthz/index.html <<EOF
 healthy
 EOF
-
-/etc/init.d/nginx restart
