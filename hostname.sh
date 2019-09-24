@@ -27,4 +27,4 @@ cat > /usr/share/nginx/html/healthz/index.html <<EOF
 healthy
 EOF
 
-nginx -g "daemon off;"
+/etc/init.d/nginx restart
